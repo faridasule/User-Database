@@ -1,0 +1,73 @@
+/* Resetting The Browser Default Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: Arial; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.heading{
+    margin: 10px 0;
+}
+
+/* Search Box Section */
+.search-section{
+    background-color: rgb(12, 146, 190);
+    padding: 10px;
+}
+
+#search{
+    width: 90%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.user-list-section{
+    margin-top: 20px;
+}
+
+li{
+    border: 1px solid rgb(12, 146, 190);
+    margin-top: -1px;
+    background-color: rgb(245, 245, 245);
+    font-size: 18px;
+    padding: 12px;
+    text-transform: capitalize;
+}
+
+li:hover{
+    background-color: rgb(173, 195, 202);
+    cursor: pointer;
+}
+
+.username{
+    background-color: black;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+
+/* MEDIA QUERY FOR LARGE SCREENS */
+@media (min-width: 1000px){
+    body{
+        width: 50%;
+    }
+    
+    li{
+        font-size: 18px;
+    }
+}
